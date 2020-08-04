@@ -15,8 +15,8 @@ export default function Index () {
       <meta property="og:title" content="Profile of Haze Lee" />
       <meta property="og:site_name" content="Profile of Haze Lee" />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content="http://mingdongobba.com/opengraph_thumbnail.png" />
-      <meta property="og:url" content="http://mingdongobba.com" />
+      <meta property="og:image" content="https://profile.realignist.me/images/profile_image.jpg" />
+      <meta property="og:url" content="https://profile.realignist.me" />
     </Head>
     <Dashboard />
   </>
