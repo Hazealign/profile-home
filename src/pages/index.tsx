@@ -8,7 +8,7 @@ const description = 'Developer, who makes service and experiences. Still fightin
 export default function Index () {
   return <>
     <Head>
-      <meta name="viewport" content="width=device-width, user-scalable=no"/>
+      <meta name="viewport" content="width=570, user-scalable=no"/>
       <title>Profile of Haze Lee</title>
       <meta name="description" content={description} />
       <meta property="og:type" content="website" />
