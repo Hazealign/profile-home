@@ -48,17 +48,6 @@ const useStyles = makeStyles((ui: ZeitUIThemes) => ({
       fontWeight: '600'
     }
   },
-  tag: {
-    display: 'flex !important',
-    alignItems: 'center',
-    textTransform: 'capitalize !important',
-    fontSize: '12px !important',
-    padding: '3px 7px !important',
-    borderRadius: '16px !important',
-    height: 'unset !important',
-    marginLeft: 8,
-    color: `${ui.palette.foreground} !important`
-  },
 }))
 
 const ElementCard = ({ title, points }: Props) => {
@@ -69,7 +58,7 @@ const ElementCard = ({ title, points }: Props) => {
         <Text h3>{title}</Text>
       </div>
       <div className={classes.content}>
-        <ul>{points.map(point => {
+        <ul style={{ listStyle: 'disc' }} >{points.map(point => {
           return <li style={{ listStyle: 'disc' }} key={point}>
             {point}
           </li>

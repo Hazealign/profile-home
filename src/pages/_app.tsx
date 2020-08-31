@@ -13,6 +13,10 @@ function App ({ Component, pageProps }: AppProps) {
       body, h1, h2, h3, h4, h5, h6, div, span {
         font-family: 'Inter', 'Noto Sans KR', 'Noto Sans JP', sans-serif !important;
       }
+
+      ul li:before {
+        content: '' !important;
+      }
     `}</style>
     <JssProvider id={{ minify: true }}>
       <ZeitProvider>
