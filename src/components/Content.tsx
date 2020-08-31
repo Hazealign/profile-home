@@ -35,7 +35,7 @@ const useStyles = makeStyles((ui: ZeitUIThemes) => ({
       flexWrap: 'wrap'
     },
     projects: {
-      width: 540,
+      width: 600,
       maxWidth: '100%',
       marginRight: 80
     },
@@ -86,26 +86,27 @@ const Content = () => {
               title="소개"
               points={[
                 '제품과 경험을 만드는 프로그래머입니다.',
+                '현재 뉴플러스기획 퍼플시드에서 일하고 있습니다.',
                 '여러 난치성 질환과 싸우면서 살아가고 있습니다.',
                 '프로그래밍, IT나 음향 기기, 음악과 만화 등에 관심이 많습니다.',
                 '사람의 보편적인 권리나 인권(장애인, 성소수자, 여성)에 관심이 많습니다.',
-                <><Link href="https://realignist.me" target="_blank" rel="noopener" pure underline>미디엄</Link>에 가끔 글을 올리고 있습니다.</>,
-                <>프로그래밍과 관련한 이야기는 트위터&nbsp;<Link href="https://twitter.com/Hazealign" target="_blank" rel="noopener" pure underline>@Hazealign</Link>에서 이야기합니다.</>,
-                <>평범한 생활 이야기나 사담은 트위터&nbsp;<Link href="https://twitter.com/Realignist" target="_blank" rel="noopener" pure underline>@Realignist</Link>(프로텍트)에서 이야기합니다.</>,
+                <div key='kr1'><Link href="https://realignist.me" target="_blank" rel="noopener" pure underline>미디엄</Link>에 가끔 글을 올리고 있습니다.</div>,
+                <div key='kr2'>프로그래밍과 관련한 이야기는 트위터&nbsp;<Link href="https://twitter.com/Hazealign" target="_blank" rel="noopener" pure underline>@Hazealign</Link>에서 이야기합니다.</div>,
+                <div key='kr3'>평범한 생활 이야기나 사담은 트위터&nbsp;<Link href="https://twitter.com/Realignist" target="_blank" rel="noopener" pure underline>@Realignist</Link>(프로텍트)에서 이야기합니다.</div>,
                 '이름은 영어로 헤이즈라고 읽고, 한글로는 하제라고 읽습니다.',
               ]}
             />
             <ElementCard
               title="自己紹介"
               points={[
-                'サービスと経験を作るプログラマーです。',
+                'サービスと経験を作るプログラマーです。まだ小さいベンチャーエージェンシーで働いています。',
                 '色んな難治性疾患と戦いながら生きています。',
                 'プログラミングとか、ガジェット、日本の音楽や漫画に興味深いです。',
                 '人権、障害者や性的少数者の権利に高い関心を持っています。',
                 '日本の文化に興味があります。特に日本の食べ物とか。',
-                <>プログラミングの話はTwitterの<Link href="https://twitter.com/Hazealign" target="_blank" rel="noopener" pure underline>@Hazealign</Link>でつぶやいています。</>,
-                <>生活の話とかはTwitterの<Link href="https://twitter.com/Realignist" target="_blank" rel="noopener" pure underline>@Realignist</Link>(鍵垢)でつぶやいています.</>,
-                <>オタクの活動はTwitterの<Link href="https://twitter.com/BrumeDawn" target="_blank" rel="noopener" pure underline>@BrumeDawn</Link>でつぶやいています.</>,
+                <div key='jp1'>プログラミングの話はTwitterの<Link href="https://twitter.com/Hazealign" target="_blank" rel="noopener" pure underline>@Hazealign</Link>でつぶやいています。</div>,
+                <div key='jp2'>生活の話とかはTwitterの<Link href="https://twitter.com/Realignist" target="_blank" rel="noopener" pure underline>@Realignist</Link>(鍵垢)でつぶやいています。</div>,
+                <div key='jp3'>オタクの活動はTwitterの<Link href="https://twitter.com/BrumeDawn" target="_blank" rel="noopener" pure underline>@BrumeDawn</Link>でつぶやいています。</div>,
                 '韓国では名前で呼ぶのが基本なので、ヘイズと呼んでくれると嬉しいです。',
               ]}
             />
@@ -113,6 +114,7 @@ const Content = () => {
               title="Who?"
               points={[
                 'I am developer, who makes service and experiences.',
+                'Works for Purpleseed at Newplus Inc., Currently.',
                 'I fighting and living with Refractory Chronic Diseases.',
                 'I like Programming, Digital Gadgets, Music and Comics.',
                 'I’m interested at improving human rights for minorities.',
@@ -126,6 +128,18 @@ const Content = () => {
             </Text>
             <ListItem imageUrl="./images/pikachu.jpg">
               <b>Pikachu</b> ♥
+            </ListItem>
+            <ListItem imageUrl="./images/miyavi.jpg">
+              <b>MIYAVI</b>
+            </ListItem>
+            <ListItem imageUrl="./images/hyde.jpg">
+              <b>HYDE</b>
+            </ListItem>
+            <ListItem imageUrl="./images/oneokrock.jpg">
+              <b>ONE OK ROCK</b>
+            </ListItem>
+            <ListItem imageUrl="./images/myfirststory.jpg">
+              <b>MY FIRST STORY</b>
             </ListItem>
             <ListItem imageUrl="./images/sekainoowari.jpg">
               <b>SEKAI NO OWARI</b> a.k.a. End of the World
@@ -144,6 +158,9 @@ const Content = () => {
             </ListItem>
             <ListItem imageUrl="./images/machikado.jpg">
               <b>まちカドまぞく</b><br/>(The Demon Girl Next Door, 길모퉁이 마족)
+            </ListItem>
+            <ListItem imageUrl="./images/rst.jpg">
+              <b>Re:ステージ！</b> (Re:Stage!, 리스테이지)
             </ListItem>
             <ListItem imageUrl="./images/minase_inori.jpg">
               <b>水瀬いのり</b> (Minase Inori, 미나세 이노리)

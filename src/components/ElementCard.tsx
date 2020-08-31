@@ -1,5 +1,5 @@
 import makeStyles from '@src/styles/makeStyles'
-import { Card, Dot, Text, ZeitUIThemes } from '@zeit-ui/react'
+import { Card, Text, ZeitUIThemes } from '@zeit-ui/react'
 import React from 'react'
 
 interface Props {
@@ -69,11 +69,12 @@ const ElementCard = ({ title, points }: Props) => {
         <Text h3>{title}</Text>
       </div>
       <div className={classes.content}>
-        {points.map(point => {
-          return <>
-            <Dot type="default" className={classes.dot}>{point}</Dot>
-          </>
+        <ul>{points.map(point => {
+          return <li style={{ listStyle: 'disc' }} key={point}>
+            {point}
+          </li>
         })}
+        </ul>
       </div>
     </Card>
   )

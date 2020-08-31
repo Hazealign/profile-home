@@ -55,7 +55,7 @@ const useStyles = makeStyles((ui: ZeitUIThemes) => ({
     textTransform: 'uppercase',
     color: `${ui.palette.accents_5} !important`,
     fontWeight: 800,
-    fontSize: 12,
+    fontSize: '12px',
     margin: 0
   },
   integrationsUsername: {
