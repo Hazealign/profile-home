@@ -103,6 +103,17 @@ const Menu = () => {
             <div className={classes.headerTitle}>Profile</div>
           </div>
           <div className={classes.sidebar}>
+
+            <Link href="https://resume.realignist.me" target="_blank" rel="noopener">
+              <Button
+                className={classes.themeIcon}
+                style={{
+                  minWidth: '75px !important',
+                  border: 'none'
+                }}
+              >Résumé</Button>
+            </Link>
+
             <Link href="https://archived.realignist.me" target="_blank" rel="noopener">
               <Button
                 className={classes.themeIcon}
@@ -122,6 +133,7 @@ const Menu = () => {
                 }}
               >Medium</Button>
             </Link>
+
           </div>
         </div>
       </div>
