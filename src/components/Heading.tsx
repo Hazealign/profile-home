@@ -1,6 +1,6 @@
-import * as Icons from '@ofekashery/vercel-icons'
 import makeStyles from '@src/styles/makeStyles'
 import { Avatar, Button, Link, Text, ZeitUIThemes } from '@zeit-ui/react'
+import * as Icons from '@zeit-ui/react-icons'
 import React from 'react'
 
 const useStyles = makeStyles((ui: ZeitUIThemes) => ({
