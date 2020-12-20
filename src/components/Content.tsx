@@ -86,7 +86,6 @@ const Content = () => {
               title="소개"
               points={[
                 '제품과 경험을 만드는 프로그래머입니다.',
-                '현재 뉴플러스기획 퍼플시드에서 일하고 있습니다.',
                 '여러 난치성 질환과 싸우면서 살아가고 있습니다.',
                 '프로그래밍, IT나 음향 기기, 음악과 만화 등에 관심이 많습니다.',
                 '사람의 보편적인 권리나 인권(장애인, 성소수자, 여성)에 관심이 많습니다.',
@@ -99,7 +98,7 @@ const Content = () => {
             <ElementCard
               title="自己紹介"
               points={[
-                'サービスと経験を作るプログラマーです。まだ小さいベンチャーエージェンシーで働いています。',
+                'サービスと経験を作るプログラマーです。',
                 '色んな難治性疾患と戦いながら生きています。',
                 'プログラミングとか、ガジェット、日本の音楽や漫画に興味深いです。',
                 '人権、障害者や性的少数者の権利に高い関心を持っています。',
@@ -114,7 +113,6 @@ const Content = () => {
               title="Who?"
               points={[
                 'I am developer, who makes service and experiences.',
-                'Works for Purpleseed at Newplus Inc., Currently.',
                 'I fighting and living with Refractory Chronic Diseases.',
                 'I like Programming, Digital Gadgets, Music and Comics.',
                 'I’m interested at improving human rights for minorities.',
@@ -151,7 +149,7 @@ const Content = () => {
               <b>凛として時雨</b> (Ling tosite sigure, 린토시테시구레)
             </ListItem>
             <ListItem imageUrl="./images/mrsgreenapple.jpg">
-              <b>Mrs. Green Apple</b>
+              <b>Mrs. GREEN APPLE</b>
             </ListItem>
             <ListItem imageUrl="./images/164203.jpg">
               <b>164</b>
