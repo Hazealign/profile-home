@@ -100,7 +100,7 @@ const Menu = () => {
       <div className={classes.header}>
         <div className={classes.headerContent}>
           <div style={{ display: 'flex' }}>
-            <div className={classes.headerTitle}>Gratitude, Faith and Constancy</div>
+            <div className={classes.headerTitle}>Profile</div>
           </div>
           <div className={classes.sidebar}>
             <Link href="https://archived.realignist.me" target="_blank" rel="noopener">
