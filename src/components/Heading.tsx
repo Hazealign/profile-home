@@ -69,7 +69,7 @@ const Heading = () => {
   return (
     <div className={classes.root}>
       <div className={classes.content}>
-        <Avatar alt="Your Avatar" className={classes.avatar} src="/images/profile_image.jpg" />
+        <Avatar alt="Haze Lee" loading="lazy" className={classes.avatar} src="/images/profile_image.jpg" />
         <div className={classes.name}>
           <div className={classes.title}>
             <Text h2 className={classes.username}>
@@ -93,12 +93,6 @@ const Heading = () => {
               <div style={{ display: 'flex', alignItems: 'center', marginRight: '1rem' }}>
                 <Icons.Twitter size={16} aria-label="Twitter" />
                 <Text className={classes.integrationsUsername}>@Hazealign</Text>
-              </div>
-            </Link>
-            <Link href="https://twitter.com/Realignist" target="_blank" rel="noopener" pure underline>
-              <div style={{ display: 'flex', alignItems: 'center', marginRight: '1rem' }}>
-                <Icons.Twitter size={16} aria-label="Twitter" />
-                <Text className={classes.integrationsUsername}>@Realignist</Text>
               </div>
             </Link>
             <Link href="https://twitter.com/BrumeDawn" target="_blank" rel="noopener" pure underline>

@@ -91,7 +91,6 @@ const Content = () => {
                 '사람의 보편적인 권리나 인권(장애인, 성소수자, 여성)에 관심이 많습니다.',
                 <div key='kr1'><Link href="https://realignist.me" target="_blank" rel="noopener" pure underline>미디엄</Link>에 가끔 글을 올리고 있습니다.</div>,
                 <div key='kr2'>프로그래밍과 관련한 이야기는 트위터&nbsp;<Link href="https://twitter.com/Hazealign" target="_blank" rel="noopener" pure underline>@Hazealign</Link>에서 이야기합니다.</div>,
-                <div key='kr3'>평범한 생활 이야기나 사담은 트위터&nbsp;<Link href="https://twitter.com/Realignist" target="_blank" rel="noopener" pure underline>@Realignist</Link>(프로텍트)에서 이야기합니다.</div>,
                 '이름은 영어로 헤이즈라고 읽고, 한글로는 하제라고 읽습니다.',
               ]}
             />
@@ -104,7 +103,6 @@ const Content = () => {
                 '人権、障害者や性的少数者の権利に高い関心を持っています。',
                 '日本の文化に興味があります。特に日本の食べ物とか。',
                 <div key='jp1'>プログラミングの話はTwitterの<Link href="https://twitter.com/Hazealign" target="_blank" rel="noopener" pure underline>@Hazealign</Link>でつぶやいています。</div>,
-                <div key='jp2'>生活の話とかはTwitterの<Link href="https://twitter.com/Realignist" target="_blank" rel="noopener" pure underline>@Realignist</Link>(鍵垢)でつぶやいています。</div>,
                 <div key='jp3'>オタクの活動はTwitterの<Link href="https://twitter.com/BrumeDawn" target="_blank" rel="noopener" pure underline>@BrumeDawn</Link>でつぶやいています。</div>,
                 '韓国では名前で呼ぶのが基本なので、ヘイズと呼んでくれると嬉しいです。',
               ]}
@@ -143,10 +141,10 @@ const Content = () => {
               <b>SEKAI NO OWARI</b> a.k.a. End of the World
             </ListItem>
             <ListItem imageUrl="./images/straightener.jpg">
-              <b>ストレイテナー</b> (Straightener, 스트레이테너)
+              <b>ストレイテナー</b> (Straightener)
             </ListItem>
             <ListItem imageUrl="./images/sigure.jpg">
-              <b>凛として時雨</b> (Ling tosite sigure, 린토시테시구레)
+              <b>凛として時雨</b> (Ling tosite sigure)
             </ListItem>
             <ListItem imageUrl="./images/mrsgreenapple.jpg">
               <b>Mrs. GREEN APPLE</b>
